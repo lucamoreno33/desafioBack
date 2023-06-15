@@ -25,6 +25,6 @@ const httpServer = app.listen(8080, () => {
 
 const socketServer = new Server(httpServer);
 socketServer.on("connection", (socket) =>{
-    console.log("todos gays")
+    console.log("un usario se ha conectado")
 } )
 
